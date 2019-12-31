@@ -1,0 +1,86 @@
+body {
+  background-color: #8a05be;
+  color: #fff;
+  font-family: Rubik, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+body * {
+  margin: 0 auto;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1.5px solid #fff;
+}
+
+a:hover {
+  border-bottom: 2.5px solid #fff;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.counter {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.explanation {
+  margin-top: 100px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+@media screen and (min-width: 760px) {
+  .counter {
+    font-size: 3.8em;
+    width: 80vw;
+  }
+
+  .explanation {
+    text-align: center;
+    width: 50vw;
+  }
+}
+
+.nu {
+  width: 2em;
+  vertical-align: middle;
+}
+
+.apple {
+  width: 1em;
+  vertical-align: middle;
+}
+
+.nu-footer {
+  width: 24px;
+  vertical-align: middle;
+}
+
+.apple-footer {
+  width: 14px;
+  vertical-align: middle;
+}
+
+.facebook {
+  background-color: #fff;
+  max-width: 100%;
+  width: 320px;
+  padding: 10px;
+  margin-top: 10px;
+}
